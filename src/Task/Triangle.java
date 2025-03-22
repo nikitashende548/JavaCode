@@ -14,14 +14,14 @@ public class Triangle {
         } else if (a == b || b == c || a == c) {
             System.out.println("Scalene Triangle");
         }
+        else if ((a * a + b * b == c * c) || (a * a + c * c == b * b) || (b * b + c * c == a * a))
+        {
+            System.out.println("Right Angle Triangle");
+        }
         else
         {
-            System.out.println(" Not triangle");
+            System.out.println("NOt a Triangle");
 
-        }
-
-        if ((a * a + b * b == c * c) || (a * a + c * c == b * b) || (b * b + c * c == a * a)) {
-            System.out.println("Right Angle Triangle");
         }
     }
 
