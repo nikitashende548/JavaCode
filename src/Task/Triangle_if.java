@@ -1,6 +1,6 @@
 package Task;
 
-public class Triangle {
+public class Triangle_if {
     public static void main(String[]args){
 
         int a =3;

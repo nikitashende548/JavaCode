@@ -9,7 +9,7 @@ public class FibonacciSeries {
         int b = 1;
 
         for (int i = 1; i < 10; i++) {
-            System.out.println(a);
+            System.out.print(a+ " ");
             num = a + b;                           // 1+1=2, 1+2=3...
             a=b;                                  //    a=1, a=1...
             b=num;                                //    b=1, b=2...
@@ -18,3 +18,4 @@ public class FibonacciSeries {
 
     }
 }
+
